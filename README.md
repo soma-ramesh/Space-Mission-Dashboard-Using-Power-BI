@@ -38,5 +38,34 @@ The following Power BI features were incorporated.
 10. Dashboard
 11. Bookmarks
 
+----
+
+## DAX 
+
+Total Missions = COUNT(space_missions[Mission])
+Total Price = SUM(space_missions[Price])
+Total Rockets = DISTINCTCOUNT((space_missions[Rocket]))
+Successful Missions = CALCULATE(COUNT(space_missions[Mission]), (space_missions[Mission Status] = "Success"))
+Faiure Missions = CALCULATE(COUNT(space_missions[Mission]), (space_missions[Mission Status]= "Failure"))
+
+---
+SPACE MISSION ANALYSIS Dashboard
+
+https://github.com/soma-ramesh/Space-Mission-Dashboard-Using-Power-BI/blob/main/Space-Missions.pbix
+
+
+-----
+
+
+
+Key Insights:
+1. Out of 4630 Missions attempted,4162 Missions succeed with 90% of success rate.
+2. Russia has the most successful missions, ie. 1323 missions and it is followed by USA with 1298 missions.
+3. Max. missions done by "RVSN USSR" (Total of 1777) and followed by "CASC" (Total of 338) companies.
+4. Only in the year of 2021, there are 157 Space Missions launched and 143 Missions are successful.
+5. Cosmos-3M(Retired) Rocket was used for most space mission(446).
+6. NASA spent nearly 76.28k millions of US dollars for all their space missions.
+
+
 
     
