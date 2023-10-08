@@ -43,9 +43,13 @@ The following Power BI features were incorporated.
 ## DAX 
 
 Total Missions = COUNT(space_missions[Mission])
+
 Total Price = SUM(space_missions[Price])
+
 Total Rockets = DISTINCTCOUNT((space_missions[Rocket]))
+
 Successful Missions = CALCULATE(COUNT(space_missions[Mission]), (space_missions[Mission Status] = "Success"))
+
 Faiure Missions = CALCULATE(COUNT(space_missions[Mission]), (space_missions[Mission Status]= "Failure"))
 
 ---
