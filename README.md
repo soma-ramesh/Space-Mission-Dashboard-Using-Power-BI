@@ -53,7 +53,8 @@ Successful Missions = CALCULATE(COUNT(space_missions[Mission]), (space_missions[
 Faiure Missions = CALCULATE(COUNT(space_missions[Mission]), (space_missions[Mission Status]= "Failure"))
 
 ---
-SPACE MISSION ANALYSIS Dashboard
+
+**SPACE MISSION ANALYSIS Dashboard**
 
 https://github.com/soma-ramesh/Space-Mission-Dashboard-Using-Power-BI/blob/main/Space-Missions.pbix
 
@@ -62,7 +63,7 @@ https://github.com/soma-ramesh/Space-Mission-Dashboard-Using-Power-BI/blob/main/
 
 
 
-Key Insights:
+# Key Insights:
 1. Out of 4630 Missions attempted,4162 Missions succeed with 90% of success rate.
 2. Russia has the most successful missions, ie. 1323 missions and it is followed by USA with 1298 missions.
 3. Max. missions done by "RVSN USSR" (Total of 1777) and followed by "CASC" (Total of 338) companies.
